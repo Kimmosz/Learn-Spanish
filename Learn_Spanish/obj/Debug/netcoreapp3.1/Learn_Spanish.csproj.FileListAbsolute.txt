@@ -1,0 +1,13 @@
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\bin\Debug\netcoreapp3.1\Learn_Spanish.exe
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\bin\Debug\netcoreapp3.1\Learn_Spanish.deps.json
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\bin\Debug\netcoreapp3.1\Learn_Spanish.runtimeconfig.json
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\bin\Debug\netcoreapp3.1\Learn_Spanish.runtimeconfig.dev.json
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\bin\Debug\netcoreapp3.1\Learn_Spanish.dll
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\bin\Debug\netcoreapp3.1\Learn_Spanish.pdb
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\obj\Debug\netcoreapp3.1\Learn_Spanish.csprojAssemblyReference.cache
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\obj\Debug\netcoreapp3.1\Learn_Spanish.AssemblyInfoInputs.cache
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\obj\Debug\netcoreapp3.1\Learn_Spanish.AssemblyInfo.cs
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\obj\Debug\netcoreapp3.1\Learn_Spanish.csproj.CoreCompileInputs.cache
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\obj\Debug\netcoreapp3.1\Learn_Spanish.dll
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\obj\Debug\netcoreapp3.1\Learn_Spanish.pdb
+D:\Projects\Spaans_Leren\Learn_Spanish\Learn_Spanish\obj\Debug\netcoreapp3.1\Learn_Spanish.genruntimeconfig.cache
