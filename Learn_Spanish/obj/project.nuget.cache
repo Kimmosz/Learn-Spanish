@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Npm2W3SBfe7W7Xcqm0BufFDlA/3BnsGTy1tLFYx9yYKl8p8G9droL/EUb4TwsBDcNRSI8wDT5IAmfdpIUgverg==",
+  "dgSpecHash": "C8IFme4WNvf/+xswcaOnMvlevQy2TZv4pqAzBmXt4SEPxuXEXMJtAtc9/s6Ix4w58L1ZtBwOH8XCFUIGJ0pQyA==",
   "success": true,
   "projectFilePath": "D:\\Projects\\Spaans_Leren\\Learn_Spanish\\Learn_Spanish\\Learn_Spanish.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\kimzz\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
