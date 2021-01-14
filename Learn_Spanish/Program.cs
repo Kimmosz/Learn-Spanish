@@ -31,10 +31,18 @@ namespace Learn_Spanish {
                 Console.WriteLine("¡Hola! ¿Qué tal?\n\nIn deze applicatie kan je Spaanse woorden oefenen!\n");
                 Console.WriteLine("Kies een optie:\n" +
                                   "1) Dagen oefenen (Nederlands > Spaans)\n" +
-                                  "2) Dagen oefenen (Spaans > Nederlands)\n" +
+                                  "2) Dagen oefenen (Spaans > Nederlands)\n\n" +
                                   "3) Maanden oefenen (Nederlands > Spaans)\n" +
-                                  "4) Maanden oefenen (Spaans > Nederlands)\n" +
-                                  "5) Sluit applicatie af");
+                                  "4) Maanden oefenen (Spaans > Nederlands)\n\n" +
+                                  "5) Nummers oefenen [0-100] (Nederlands > Spaans)\n" +
+                                  "6) Nummers oefenen [0-100] (Spaans > Nederlands)\n\n" +
+                                  "7) Kleuren oefenen (Nederlands > Spaans)\n" +
+                                  "8) Kleuren oefenen (Spaans > Nederlands)\n\n" + 
+                                  "9) Relaties oefenen (Nederlands > Spaans)\n" +
+                                  "10) Relaties oefenen (Spaans > Nederlands)\n\n" + 
+                                  "11) Dieren oefenen (Nederlands > Spaans)\n" + 
+                                  "12) Dieren oefenen (Spaans > Nederlands)\n\n" +
+                                  "13) Sluit applicatie af");
                 
                 // Get choice of the user
                 string userInput = Console.ReadLine();
@@ -59,6 +67,38 @@ namespace Learn_Spanish {
                         GameManager.SetupQuestion("months", "SD");
                         break;
                     } else if (choice == 5) {
+                        // Numbers from Dutch to Spanish
+                        GameManager.SetupQuestion("numbers", "DS");
+                        break;
+                    } else if (choice == 6) {
+                        // Numbers from Spanish to Dutch
+                        GameManager.SetupQuestion("numbers", "SD");
+                        break;
+                    } else if (choice == 7) {
+                        // Colors from Dutch to Spanish
+                        GameManager.SetupQuestion("colors", "DS");
+                        break;
+                    } else if (choice == 8) {
+                        // Colors from Spanish to Dutch
+                        GameManager.SetupQuestion("colors", "SD");
+                        break;
+                    } else if (choice == 9) {
+                        // Relation words from Dutch to Spanish
+                        GameManager.SetupQuestion("relations", "DS");
+                        break;
+                    } else if (choice == 10) {
+                        // Relation words from Spanish to Dutch
+                        GameManager.SetupQuestion("relations", "SD");
+                        break;
+                    } else if (choice == 11) {
+                        // Animals from Dutch to Spanish
+                        GameManager.SetupQuestion("animals", "DS");
+                        break;
+                    } else if (choice == 12) {
+                        // Animals from Spanish to Dutch
+                        GameManager.SetupQuestion("animals", "SD");
+                        break;
+                    } else if (choice == 13) {
                         break;
                     } else {
                         // Requires the user to choose one of the given option

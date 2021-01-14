@@ -37,27 +37,34 @@ namespace Learn_Spanish {
 
         // Function which asks the user the question and checks if its correct
         public static void ExecuteQuestion(string wordType, string type, int randomNumber, Word[] wordsData) {
+            string language;
             string questionWord;
             string answerWord;
 
             // Check what translation type the user chose
             if (type == "DS") {
                 // Dutch to Spanish
+                language = "Spaans";
                 questionWord = wordsData[randomNumber - 1].Dutch;
                 answerWord = wordsData[randomNumber - 1].Spanish;
             } else if (type == "SD") {
                 // Spanish to Dutch
+                language = "Nederlands";
                 questionWord = wordsData[randomNumber - 1].Spanish;
                 answerWord = wordsData[randomNumber - 1].Dutch;
             } else {
                 // Wrong translation type
+                language = "Error, no translation type given";
                 questionWord = "Error, no translation type given";
                 answerWord = "Error, no translation type given";
             }
 
             while (true) {
                 // Ask question to the user and get given input
-                Console.WriteLine($"Wat is > {questionWord} < in het Spaans?");
+                if (wordType=="numbers" && type=="SD")
+                    Console.WriteLine($"Wat is > {questionWord} < in nummers?");
+                else 
+                    Console.WriteLine($"Wat is > {questionWord} < in het {language}?");
                 string answer = Console.ReadLine();
 
                 // Check if input equals the correct answer
