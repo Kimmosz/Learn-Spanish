@@ -9,19 +9,19 @@ namespace Learn_Spanish {
         private static Random random = new Random();
 
         // Function which set up the question
-        public static void SetupQuestion(string wordType, string type) {
+        public static void SetupQuestion(string wordType, string translationType) {
             while (true) {
                 Program.Header();
 
                 // Get all data from JSON file and put in array
-                List<Word> getWordList = LoadDaysDirectory(wordType);
-                Word[] words = getWordList.ToArray();
+                List<Word> wordList = LoadDaysDirectory(wordType);
+                Word[] words = wordList.ToArray();
 
                 // Get random number to define word
                 int randomNumber = random.Next(1, words.Length + 1);
 
                 // Execute the question
-                ExecuteQuestion(wordType, type, randomNumber, words);
+                ExecuteQuestion(wordType, translationType, randomNumber, words);
                 break;
             }
         }
@@ -36,60 +36,60 @@ namespace Learn_Spanish {
         }
 
         // Function which asks the user the question and checks if its correct
-        public static void ExecuteQuestion(string wordType, string type, int randomNumber, Word[] wordsData) {
-            string language;
+        public static void ExecuteQuestion(string wordType, string translationType, int randomNumber, Word[] wordsData) {
+            string outcomeLanguage;
             string questionWord;
-            string answerWord;
+            string correctAnswer;
 
             // Check what translation type the user chose
-            if (type == "DS") {
+            if (translationType == "DS") {
                 // Dutch to Spanish
-                language = "Spaans";
+                outcomeLanguage = "Spaans";
                 questionWord = wordsData[randomNumber - 1].Dutch;
-                answerWord = wordsData[randomNumber - 1].Spanish;
-            } else if (type == "SD") {
+                correctAnswer = wordsData[randomNumber - 1].Spanish;
+            } else if (translationType == "SD") {
                 // Spanish to Dutch
-                language = "Nederlands";
+                outcomeLanguage = "Nederlands";
                 questionWord = wordsData[randomNumber - 1].Spanish;
-                answerWord = wordsData[randomNumber - 1].Dutch;
+                correctAnswer = wordsData[randomNumber - 1].Dutch;
             } else {
                 // Wrong translation type
-                language = "Error, no translation type given";
+                outcomeLanguage = "Error, no translation type given";
                 questionWord = "Error, no translation type given";
-                answerWord = "Error, no translation type given";
+                correctAnswer = "Error, no translation type given";
             }
 
             while (true) {
                 // Ask question to the user and get given input
-                if (wordType=="numbers" && type=="SD")
+                if (wordType == "numbers" && translationType == "SD")
                     Console.WriteLine($"Wat is > {questionWord} < in nummers?");
-                else 
-                    Console.WriteLine($"Wat is > {questionWord} < in het {language}?");
-                string answer = Console.ReadLine();
+                else
+                    Console.WriteLine($"Wat is > {questionWord} < in het {outcomeLanguage}?");
+                string userAnswer = Console.ReadLine();
 
                 // Check if input equals the correct answer
-                if (answer == answerWord) { 
+                if (userAnswer == correctAnswer) {
                     Console.ForegroundColor = ConsoleColor.DarkGreen;
                     Console.WriteLine("\nGoed!");
                     Console.ForegroundColor = ConsoleColor.White;
                 } else {
                     Console.ForegroundColor = ConsoleColor.DarkRed;
-                    Console.WriteLine($"\nFout! Het juiste antwoord is:\n{answerWord}");
+                    Console.WriteLine($"\nFout! Het juiste antwoord is:\n{correctAnswer}");
                     Console.ForegroundColor = ConsoleColor.White;
                 }
                 // Ask to user if he/she wants to continue with answering questions
-                UserCheck(wordType, type);
+                UserCheck(wordType, translationType);
                 break;
             }
         }
 
         // Function which asks the user if he/she wants to continue or quit
-        public static void UserCheck(string wordType, string type) {
+        public static void UserCheck(string wordType, string translationType) {
             while (true) {
                 Console.WriteLine("\nWil je nog een woord om te oefenen? (J/N)");
                 string answer = Console.ReadLine();
                 if (answer.ToUpper() == "J") {
-                    SetupQuestion(wordType, type);
+                    SetupQuestion(wordType, translationType);
                     break;
                 } else if (answer.ToUpper() == "N") {
                     Program.MainMenu();

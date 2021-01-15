@@ -42,5 +42,365 @@
   {
     "Dutch": "10",
     "Spanish": "diez"
+  },
+  {
+    "Dutch": "11",
+    "Spanish": "once"
+  },
+  {
+    "Dutch": "12",
+    "Spanish": "doce"
+  },
+  {
+    "Dutch": "13",
+    "Spanish": "trece"
+  },
+  {
+    "Dutch": "14",
+    "Spanish": "catorce"
+  },
+  {
+    "Dutch": "15",
+    "Spanish": "quince"
+  },
+  {
+    "Dutch": "16",
+    "Spanish": "dieciséis"
+  },
+  {
+    "Dutch": "17",
+    "Spanish": "diecisiete"
+  },
+  {
+    "Dutch": "18",
+    "Spanish": "dieciocho"
+  },
+  {
+    "Dutch": "19",
+    "Spanish": "diecinueve"
+  },
+  {
+    "Dutch": "20",
+    "Spanish": "veinte"
+  },
+  {
+    "Dutch": "21",
+    "Spanish": "veintiuno"
+  },
+  {
+    "Dutch": "22",
+    "Spanish": "veintidós"
+  },
+  {
+    "Dutch": "23",
+    "Spanish": "veintitrés"
+  },
+  {
+    "Dutch": "24",
+    "Spanish": "veinticuatro"
+  },
+  {
+    "Dutch": "25",
+    "Spanish": "veinticinco"
+  },
+  {
+    "Dutch": "26",
+    "Spanish": "veintiséis"
+  },
+  {
+    "Dutch": "27",
+    "Spanish": "veintisiete"
+  },
+  {
+    "Dutch": "28",
+    "Spanish": "veintiocho"
+  },
+  {
+    "Dutch": "29",
+    "Spanish": "veintinueve"
+  },
+  {
+    "Dutch": "30",
+    "Spanish": "treinta"
+  },
+  {
+    "Dutch": "31",
+    "Spanish": "treinta y uno"
+  },
+  {
+    "Dutch": "32",
+    "Spanish": "treinta y dos"
+  },
+  {
+    "Dutch": "33",
+    "Spanish": "treinta y tres"
+  },
+  {
+    "Dutch": "34",
+    "Spanish": "treinta y cuatro"
+  },
+  {
+    "Dutch": "35",
+    "Spanish": "treinta y cinco"
+  },
+  {
+    "Dutch": "36",
+    "Spanish": "treinta y seis"
+  },
+  {
+    "Dutch": "37",
+    "Spanish": "treinta y siete"
+  },
+  {
+    "Dutch": "38",
+    "Spanish": "treinta y ocho"
+  },
+  {
+    "Dutch": "39",
+    "Spanish": "treinta y nueve"
+  },
+  {
+    "Dutch": "40",
+    "Spanish": "cuarenta"
+  },
+  {
+    "Dutch": "41",
+    "Spanish": "cuarenta y uno"
+  },
+  {
+    "Dutch": "42",
+    "Spanish": "cuarenta y dos"
+  },
+  {
+    "Dutch": "43",
+    "Spanish": "cuarenta y tres"
+  },
+  {
+    "Dutch": "44",
+    "Spanish": "cuarenta y cuatro"
+  },
+  {
+    "Dutch": "45",
+    "Spanish": "cuarenta y cinco"
+  },
+  {
+    "Dutch": "46",
+    "Spanish": "cuarenta y seis"
+  },
+  {
+    "Dutch": "47",
+    "Spanish": "cuarenta y siete"
+  },
+  {
+    "Dutch": "48",
+    "Spanish": "cuarenta y ocho"
+  },
+  {
+    "Dutch": "49",
+    "Spanish": "cuarenta y nueve"
+  },
+  {
+    "Dutch": "50",
+    "Spanish": "cincuenta"
+  },
+  {
+    "Dutch": "51",
+    "Spanish": "cincuenta y uno"
+  },
+  {
+    "Dutch": "52",
+    "Spanish": "cincuenta y dos"
+  },
+  {
+    "Dutch": "53",
+    "Spanish": "cincuenta y tres"
+  },
+  {
+    "Dutch": "54",
+    "Spanish": "cincuenta y cuatro"
+  },
+  {
+    "Dutch": "55",
+    "Spanish": "cincuenta y cinco"
+  },
+  {
+    "Dutch": "56",
+    "Spanish": "cincuenta y seis"
+  },
+  {
+    "Dutch": "57",
+    "Spanish": "cincuenta y siete"
+  },
+  {
+    "Dutch": "58",
+    "Spanish": "cincuenta y ocho"
+  },
+  {
+    "Dutch": "59",
+    "Spanish": "cincuenta y nueve"
+  },
+  {
+    "Dutch": "60",
+    "Spanish": "sesenta"
+  },
+  {
+    "Dutch": "61",
+    "Spanish": "sesenta y uno"
+  },
+  {
+    "Dutch": "62",
+    "Spanish": "sesenta y dos"
+  },
+  {
+    "Dutch": "63",
+    "Spanish": "sesenta y tres"
+  },
+  {
+    "Dutch": "64",
+    "Spanish": "sesenta y cuatro"
+  },
+  {
+    "Dutch": "65",
+    "Spanish": "sesenta y cinco"
+  },
+  {
+    "Dutch": "66",
+    "Spanish": "sesenta y seis"
+  },
+  {
+    "Dutch": "67",
+    "Spanish": "sesenta y siete"
+  },
+  {
+    "Dutch": "68",
+    "Spanish": "sesenta y ocho"
+  },
+  {
+    "Dutch": "69",
+    "Spanish": "sesenta y nueve"
+  },
+  {
+    "Dutch": "70",
+    "Spanish": "setenta"
+  },
+  {
+    "Dutch": "71",
+    "Spanish": "setenta y uno"
+  },
+  {
+    "Dutch": "72",
+    "Spanish": "setenta y dos"
+  },
+  {
+    "Dutch": "73",
+    "Spanish": "setenta y tres"
+  },
+  {
+    "Dutch": "74",
+    "Spanish": "setenta y cuatro"
+  },
+  {
+    "Dutch": "75",
+    "Spanish": "setenta y cinco"
+  },
+  {
+    "Dutch": "76",
+    "Spanish": "setenta y seis"
+  },
+  {
+    "Dutch": "77",
+    "Spanish": "setenta y siete"
+  },
+  {
+    "Dutch": "78",
+    "Spanish": "setenta y ocho"
+  },
+  {
+    "Dutch": "79",
+    "Spanish": "setenta y nueve"
+  },
+  {
+    "Dutch": "80",
+    "Spanish": "ochenta"
+  },
+  {
+    "Dutch": "81",
+    "Spanish": "ochenta y uno"
+  },
+  {
+    "Dutch": "82",
+    "Spanish": "ochenta y dos"
+  },
+  {
+    "Dutch": "83",
+    "Spanish": "ochenta y tres"
+  },
+  {
+    "Dutch": "84",
+    "Spanish": "ochenta y cuatro"
+  },
+  {
+    "Dutch": "85",
+    "Spanish": "ochenta y cinco"
+  },
+  {
+    "Dutch": "86",
+    "Spanish": "ochenta y seis"
+  },
+  {
+    "Dutch": "87",
+    "Spanish": "ochenta y siete"
+  },
+  {
+    "Dutch": "88",
+    "Spanish": "ochenta y ocho"
+  },
+  {
+    "Dutch": "89",
+    "Spanish": "ochenta y nueve"
+  },
+  {
+    "Dutch": "90",
+    "Spanish": "noventa"
+  },
+  {
+    "Dutch": "91",
+    "Spanish": "noventa y uno"
+  },
+  {
+    "Dutch": "92",
+    "Spanish": "noventa y dos"
+  },
+  {
+    "Dutch": "93",
+    "Spanish": "noventa y tres"
+  },
+  {
+    "Dutch": "94",
+    "Spanish": "noventa y cuatro"
+  },
+  {
+    "Dutch": "95",
+    "Spanish": "noventa y cinco"
+  },
+  {
+    "Dutch": "96",
+    "Spanish": "noventa y seis"
+  },
+  {
+    "Dutch": "97",
+    "Spanish": "noventa y siete"
+  },
+  {
+    "Dutch": "98",
+    "Spanish": "noventa y ocho"
+  },
+  {
+    "Dutch": "99",
+    "Spanish": "noventa y nueve"
+  },
+  {
+    "Dutch": "100",
+    "Spanish": "cien"
   }
 ]

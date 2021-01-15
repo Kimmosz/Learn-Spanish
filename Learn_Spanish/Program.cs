@@ -3,6 +3,7 @@
 namespace Learn_Spanish {
     public class Program {
         static void Main(string[] args) {
+            Console.ReadLine();
             MainMenu();
         }
 
@@ -37,13 +38,13 @@ namespace Learn_Spanish {
                                   "5) Nummers oefenen [0-100] (Nederlands > Spaans)\n" +
                                   "6) Nummers oefenen [0-100] (Spaans > Nederlands)\n\n" +
                                   "7) Kleuren oefenen (Nederlands > Spaans)\n" +
-                                  "8) Kleuren oefenen (Spaans > Nederlands)\n\n" + 
+                                  "8) Kleuren oefenen (Spaans > Nederlands)\n\n" +
                                   "9) Relaties oefenen (Nederlands > Spaans)\n" +
-                                  "10) Relaties oefenen (Spaans > Nederlands)\n\n" + 
-                                  "11) Dieren oefenen (Nederlands > Spaans)\n" + 
+                                  "10) Relaties oefenen (Spaans > Nederlands)\n\n" +
+                                  "11) Dieren oefenen (Nederlands > Spaans)\n" +
                                   "12) Dieren oefenen (Spaans > Nederlands)\n\n" +
                                   "13) Sluit applicatie af");
-                
+
                 // Get choice of the user
                 string userInput = Console.ReadLine();
                 int choice;
