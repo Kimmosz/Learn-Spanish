@@ -1,7 +1,7 @@
 # Learn_Spanish
-This is an Application where you can practice Spanish words.
+Learn Spanish is a Console application made to practice Spanish words. You can learn the words from Dutch to Spanish and Spanish to Dutch. An output will be given when a word is written correctly or incorrectly. When it is incorrect, the program shows the user what answer was correct. The program also checks on accent marks. In that way, the user can practice until they know the words sufficient.
 
-Since I am currently learning the Spanish language, I was inspired to create a console application whereby you can practice important Spanish words.
+The application is implemented so that it is easy to expand the library with more words. The lists of words are saved in JSON files imported into the program.
 
-This application is for now Dutch only. English option may be added in the future.
-I will soon add the application to my Itch.io page where you can download and try it out: https://kimberlysalemink.itch.io/
+Motivation:
+I like to learn new languages and had a great time with English and German lessons in high school. Learning Spanish was already on my bucket list when I discovered that Hogeschool Rotterdam has an elective course, "Spanish for Beginners". I came up with the idea to make this program during the elective course. Of course, I could have used a learning program from the internet, but I liked to challenge myself to make my own small program. With this program, I have learned the Spanish words and numbers sufficient for the exam.
